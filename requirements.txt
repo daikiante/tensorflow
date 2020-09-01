@@ -1,0 +1,4 @@
+flickrapi==2.4.0
+urllib3==1.25.7
+
+# pipenv install -r ./requirements.txt --python 3.7

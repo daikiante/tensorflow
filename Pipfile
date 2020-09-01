@@ -1,0 +1,21 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+flickrapi = "==2.4.0"
+urllib3 = "==1.25.7"
+keras = "*"
+flask = "*"
+tensorflow = "*"
+
+[requires]
+python_version = "3.7"
+
+[scripts]
+monkey = "python download.py monkey"
+boar = "python download.py boar"
+crow = "python download.py crow"
