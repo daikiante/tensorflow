@@ -18,7 +18,6 @@ num_classes = len(classes)
 image_size = 50
 num_testdata = 100
 
-
 # 画像の読み込み
 
 # 画像データを保存するリスト
